@@ -1,0 +1,17 @@
+.idea
+.vscode
+
+node_modules
+build
+
+*.lock
+*-lock.json
+*.log
+
+.yarn/*
+!.yarn/patches
+!.yarn/releases
+!.yarn/plugins
+!.yarn/sdks
+!.yarn/versions
+.pnp.*

@@ -1,0 +1,44 @@
+{
+  "name": "mini-apps-template",
+  "version": "0.0.0",
+  "license": "MIT",
+  "dependencies": {
+    "@unexp/router": "0.0.37",
+    "@vkontakte/icons": "^1.93.0",
+    "@vkontakte/vk-bridge": "^2.4.1",
+    "@vkontakte/vkjs": "^0.21.0",
+    "@vkontakte/vkui": "^4.5.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "styled-jsx": "3.3.1"
+  },
+  "devDependencies": {
+    "@types/react": "17.0.3",
+    "@types/react-dom": "17.0.3",
+    "customize-cra": "1.0.0",
+    "react-app-rewired": "2.1.8",
+    "react-scripts": "4.0.3",
+    "typescript": "4.2.4"
+  },
+  "scripts": {
+    "start": "react-app-rewired start",
+    "build": "react-app-rewired build"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
